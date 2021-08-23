@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Result</title>
+</head>
+<body>
+	<h1>
+		Ummmmm Well! Let me tell you what your image looks like!
+		I hope this is what you expected!</h1>
+	<h1>Predictions along with their percentages are : </h1>
+<h1>
+{% for r,p in res %}
+	{{r}} {{p}}%</br>
+{% endfor %}
+</h1>
+</body>
+</html>
